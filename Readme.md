@@ -74,16 +74,18 @@ Please follow the commands in ```./scripts```.
 
 ### Model Zoo
 
-| Dataset |  Backbone  | mAP | Rare | Non-rare | Weights |
-| ---- |  ----  | ----  | ----  | ----  | ----  |
-| HICO-DET | ResNet-50+ViT-B  | 33.80 | 31.72 | 34.42 | [weights](https://drive.google.com/file/d/1utTPqQkDIvlNhDzAs8mhoSN7FMQjBToH/view?usp=sharing) |
-| HICO-DET |ResNet-50+ViT-L  | 38.40 | 37.52 | 38.66 | [weights](https://drive.google.com/file/d/1JqX61ZSDXmDuLz4DPavK3aa1ISG7W8Dj/view?usp=sharing) |
-
-
-| Dataset |  Backbone  | Scenario 1 | Scenario 2 | Weights |
-| ---- |  ----  | ----  | ----  | ----  |
-|V-COCO| ResNet-50+ViT-B  | 56.12 | 61.45 | [weights](https://drive.google.com/file/d/13WiXzP08MKSMD-jZrtIpWcyFa7zYXnRE/view?usp=sharing) |
-|V-COCO| ResNet-50+ViT-L  | 58.57 | 63.97 | [weights](https://drive.google.com/file/d/1amqgWOPjC8mlHMrmoZj6YzxCFBPLUeww/view?usp=sharing) |
+| Method          | Type  | Unseen↑ | Seen↑ | Full↑ | HM↑   |
+|-----------------|-------|---------|-------|-------|-------|
+| CMMP (Ours)     | UC    | 29.60   | 32.39 | 31.84 | 30.93 |
+| CMMP† (Ours)    | UC    |         |       |       |       |
+| CMMP (Ours)     | RF-UC | 29.45   | 32.87 | 32.18 | 31.07 |
+| CMMP† (Ours)    | RF-UC | 35.98   | 37.42 | 37.13 | 36.69 |
+| CMMP (Ours)     | NF-UC | 32.09   | 29.71 | 30.18 | 30.85 |
+| CMMP† (Ours)    | NF-UC | 33.52   | 35.53 | 35.13 | 34.50 |
+| CMMP (Ours)     | UO    | 33.76   | 31.15 | 31.59 | 32.40 |
+| CMMP† (Ours)    | UO    | 39.67   | 36.15 | 36.74 | 37.83 |
+| CMMP (Ours)     | UV    | 26.23   | 32.75 | 31.84 | 29.13 |
+| CMMP† (Ours)    | UV    | 30.84   | 37.28 | 36.38 | 33.75 |
 
 
 ## Citation
