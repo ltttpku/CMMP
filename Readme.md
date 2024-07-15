@@ -76,8 +76,6 @@ Please follow the commands in ```./scripts```.
 
 | Method          | Type  | Unseen↑ | Seen↑ | Full↑ | HM↑   |
 |-----------------|-------|---------|-------|-------|-------|
-<!-- | CMMP (Ours)     | UC    | 29.60   | 32.39 | 31.84 | 30.93 |
-| CMMP† (Ours)    | UC    | 34.46   | 37.15 | 36.56 | 35.75 | -->
 | CMMP (Ours)     | RF-UC | 29.45   | 32.87 | 32.18 | 31.07 |
 | CMMP† (Ours)    | RF-UC | 35.98   | 37.42 | 37.13 | 36.69 |
 | CMMP (Ours)     | NF-UC | 32.09   | 29.71 | 30.18 | 30.85 |
