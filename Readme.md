@@ -86,6 +86,14 @@ Please follow the commands in ```./scripts```.
 | CMMP† (Ours)    | UV    | 30.84   | 37.28 | 36.38 | 33.75 |
 
 
+### Model Weights
+
+You can download the model weights from:
+```
+Link: https://pan.baidu.com/s/1XyWG2qjEXWghEYcc4-PGFA?pwd=zkh5
+Password: zkh5
+```
+
 ## Citation
 If you find our paper and/or code helpful, please consider citing:
 ```
