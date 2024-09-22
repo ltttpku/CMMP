@@ -1,5 +1,7 @@
 ## [ECCV 2024] Exploring Conditional Multi-Modal Prompts for Zero-shot HOI Detection
 
+[Arxiv](https://arxiv.org/abs/2408.02484), [Project Page](https://sites.google.com/view/eccv24-cmmp/%E9%A6%96%E9%A1%B5)
+
 ### Dataset 
 Follow the process of [UPT](https://github.com/fredzzhang/upt).
 
