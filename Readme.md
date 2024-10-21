@@ -96,6 +96,11 @@ Link: https://pan.baidu.com/s/1XyWG2qjEXWghEYcc4-PGFA?pwd=zkh5
 Password: zkh5
 ```
 
+Or you can download the CMMP weights from huggingface:
+```
+https://huggingface.co/lttt/CMMP/tree/main
+```
+
 ## Citation
 If you find our paper and/or code helpful, please consider citing:
 ```
